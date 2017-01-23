@@ -28,15 +28,28 @@ h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6
 
 
 .post
+  position: relative
   padding-top: 2em
   font-size: $post-font-size
   line-height: $post-line-height
-  text-shadow: 1px 1px 0 #fff
+  color: #000
+  &:after
+    content: ''
+    clear: both
+    display: block
 
   &-title
     margin: 0 0 $post-paragraph-spacing * .75
     font-size: 1.8em
     color: $post-title-color
+
+    // 蒙版样式
+  &-wrap
+    float: left
+    width: 50%
+    height: 100%
+    background-color: rgba(0,0,0,0.2)
+    
   &-meta
     font-size: .9em
     color: $post-meta-color
