@@ -2,7 +2,7 @@
 layout: wrap
 title:  "deep soul"
 date:   2017-01-22 14:18:16
-img: qrcode.jpg
+img: avatar.jpg
 ivory: ivory
 ---
 闻说你时常在下午 来这里寄信件
