@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
-<article class="post container" style="background: url('/assets/img/bg/{{ page.bg }}' );color:{{ page.ivory }}">
+<style>
+  body{
+    background-image: url('/assets/img/bg/index2.jpg');
+  }
+</style>
+<article class="post container">
   <div class="post-meta">
-  {{ page.date }}
+    {% if page.date %}
     <span class="post-meta-span date">{{ page.date | date:"%Y %B %d" }}</span>
+    {% endif%}
     {% if page.tags.size > 0 %}
     <span class="post-meta-span tag">{{ page.tags | join: ', ' }}</span>
     {% endif %}

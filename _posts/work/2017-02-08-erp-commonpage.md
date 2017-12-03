@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "ERP 通用页面及弹窗说明文档"
 date:   2017-02-08
 categories: work

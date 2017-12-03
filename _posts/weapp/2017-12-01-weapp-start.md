@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "weapp-start"
 date:   2017-01-22
 categories: weapp
@@ -12,7 +13,8 @@ tags: weapp-start
       2.wxml 后缀的 WXML 模板文件
       3.wxss 后缀的 WXSS 样式文件
       4.js 后缀的 JS 脚本逻辑文件
-<img src="/assets/img/2017-12-01-weapp-start/weapp-structure.png">
+
+![1.png][]
 
 ## 1 .JSON 配置文件
 ### 1.1 小程序配置 app.json
@@ -50,11 +52,11 @@ tags: weapp-start
 
 ## 2 WXML模版
 pages/index/index.wxml
-{% highlight html linenos %}
+```html
 <!--index.wxml-->
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <button wx:if="\{\{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
@@ -64,7 +66,7 @@ pages/index/index.wxml
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
-{% endhighlight %}
+```
 
 ## 3 WXSS 样式
 WXSS 具有 CSS 大部分的特性，小程序在 WXSS 也做了一些扩充和修改。
@@ -99,3 +101,5 @@ WXSS 具有 CSS 大部分的特性，小程序在 WXSS 也做了一些扩充和�
 * 小程序启动之后，在 app.js 定义的 App 实例的 onLaunch 回调会被执行:
 
 整个小程序只有一个 App 实例，是全部页面共享的，更多的事件回调参考文档 [注册程序 App](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/app.html)。
+
+[1.png]:/assets/img/2017-12-01-weapp-start/weapp-structure.png
