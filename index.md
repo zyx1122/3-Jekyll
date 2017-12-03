@@ -1,60 +1,9 @@
 ---
-layout: wrap
-title:  "deep soul"
-date:   2017-01-22 14:18:16
-img: avatar.jpg
-ivory: ivory
+layout: index
+title:  "zyx-notes"
 ---
-闻说你时常在下午 来这里寄信件
+## 博客平台
 
-逢礼拜留连艺术展 还是未搜索间断
+这个博客通过 [Jekyll](http://jekyllrb.com/) 生成，部署在 [Github](https://pages.github.com)，主题基于 [3-Jekyll](https://github.com/P233/3-Jekyll) 修改生成，Fork自[yansu.org](https://github.com/suyan/suyan.github.io) ，同时也感谢 [Peiwen Lu](https://github.com/P233) 开发出这漂亮的主题。此博客的源码现托管于[Github](https://github.com/Giantzero-x/Giantzero-x.github.io)上，如果有任何改进意见，欢迎讨论。
 
-何以我来回巡逻 偏仍然和你擦肩
-
-还仍然在各自宇宙 错过了春天
-
-只差一点点即可以再会面
-
-可惜偏偏刚刚擦过 十面埋伏过 孤单感更赤裸   
-
-总差一点点先可以再会面
-
-彷佛应该一早见过 但直行直过
-
-只差一个眼波 将彼此错过
-
-迟两秒搭上地下铁 能与你碰上么
-
-如提前十步入电梯 谁又被错过
-
-和某某从来未预约 为何能见更多
-
-全城来撞你 但最后处处有险阻
-
-只差一点点即可以再会面
-
-可惜偏偏刚刚擦过 十面埋伏过 孤单感更赤裸
-
-总差一点点先可以再会面
-
-彷佛应该一早见过 但直行直过
-
-只等一个眼波
-
-轨迹改变角度交错 寂寞城市又再探戈
-
-天空闪过灿烂花火 和你不再为爱奔波
-
-总差一点点先可以再会面
-
-悔不当初轻轻放过 现在惩罚我 分手分错了么
-
-分开一千天 天天盼再会面
-
-只怕使你先找到我 但直行直过
-
-天都帮你去躲 躲开不见我
-
-[jekyll]:      http://baidu.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[markdown语法说明](/2017/02/07/markdown-syntax.html)
