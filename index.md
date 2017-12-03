@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: wrap
 title:  "zyx-notes"
 ---
 ## 博客平台
